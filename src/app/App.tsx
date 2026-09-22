@@ -524,7 +524,7 @@ export default function App() {
   const [cvUrl, setCvUrl]             = useState<string | null>(() => loadFromStorage("ca_cv_url", null));
   const [cvName, setCvName]           = useState<string>(() => loadFromStorage("ca_cv_name", ""));
   // startYear drives the auto-calculated experience counter
-  const [startYear, setStartYear]     = useState<number>(() => loadFromStorage("ca_start_year", 2023));
+  const [startYear, setStartYear]     = useState<number>(() => loadFromStorage("ca_start_year", 2024));
   const [editingYears, setEditingYears] = useState(false);
   const [yearInput, setYearInput]     = useState("");
 
