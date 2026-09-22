@@ -80,11 +80,11 @@ const ALL_TAGS = [
 
 const SKILLS = [
   { name: "Machine Learning",    level: 90 },
-  { name: "Data Analytics",      level: 93 },
-  { name: "Python / Pandas",     level: 92 },
-  { name: "SQL & Databases",     level: 95 },
-  { name: "Data Visualization",  level: 87 },
-  { name: "Statistical Modelling", level: 80 },
+  { name: "Data Analytics",      level: 95 },
+  { name: "Python / Pandas",     level: 90 },
+  { name: "SQL & Databases",     level: 97 },
+  { name: "Data Visualization",  level: 95 },
+  { name: "Statistical Modelling", level: 85 },
 ];
 
 // ─── Skill Bar ────────────────────────────────────────────────────────────────
