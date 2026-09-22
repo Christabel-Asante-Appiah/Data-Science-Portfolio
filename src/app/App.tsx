@@ -521,7 +521,7 @@ function SoftBlob() {
 export default function App() {
   const [projects, setProjects]       = useState<Project[]>(() => loadFromStorage("ca_projects", []));
   const [profilePic, setProfilePic]   = useState<string | null>("Image.jpg");
-  const [cvUrl, setCvUrl]             = useState<string | null>(() => loadFromStorage("ca_cv_url", null));
+  const [cvUrl, setCvUrl]             = useState<string | null>("CHRISTABEL ASANTE APPIAH_DATA SCIENTIST");
   const [cvName, setCvName]           = useState<string>(() => loadFromStorage("ca_cv_name", ""));
   // startYear drives the auto-calculated experience counter
   const [startYear, setStartYear]     = useState<number>(() => loadFromStorage("ca_start_year", 2024));
