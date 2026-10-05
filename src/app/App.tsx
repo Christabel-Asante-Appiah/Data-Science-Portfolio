@@ -535,7 +535,7 @@ export default function App() {
   const [cvUrl, setCvUrl]             = useState<string | null>("CHRISTABEL ASANTE APPIAH_DATA SCIENTIST.pdf");
   const [cvName, setCvName]           = useState<string>("CHRISTABEL ASANTE APPIAH_DATA SCIENTIST.pdf");
   // startYear drives the auto-calculated experience counter
-  const [startYear, setStartYear]     = useState<number>(() => loadFromStorage("ca_start_year", 2024));
+  const [startYear, setStartYear]     = useState<number>(2024);
   const [editingYears, setEditingYears] = useState(false);
   const [yearInput, setYearInput]     = useState("");
 
