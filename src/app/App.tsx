@@ -523,7 +523,7 @@ function SoftBlob() {
    description: "Interactive Power BI report built to analyze sales metrics, KPIs, and trends. Includes data modeling, DAX measures, and dynamic filtering.",
    tags: ["Power BI", "DAX", "SQL"],
    image: "/salesproject.png", // Exact name of your image in public/
-   link: "/SALESS.pbix", // Exact name of your .pbix file in public/ OR a link to your Power BI web report
+   link: "/SALESS.pbix", // Exact name of your .pbix file in public OR a link to your Power BI web report
  },
 ];
     
