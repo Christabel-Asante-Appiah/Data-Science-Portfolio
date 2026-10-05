@@ -516,10 +516,21 @@ function SoftBlob() {
   );
 }
 
+    const INITIAL_PROJECTS: Project[] = [
+ {
+   id: "1",
+   title: "Sales Performance & Analytics Dashboard",
+   description: "Interactive Power BI report built to analyze sales metrics, KPIs, and trends. Includes data modeling, DAX measures, and dynamic filtering.",
+   tags: ["Power BI", "DAX", "SQL"],
+   image: "/salesproject.png", // Exact name of your image in public/
+   link: "/SALESS.pbix", // Exact name of your .pbix file in public/ OR a link to your Power BI web report
+ },
+];
+    
 // ─── App ──────────────────────────────────────────────────────────────────────
 
 export default function App() {
-  const [projects, setProjects]       = useState<Project[]>(() => loadFromStorage("ca_projects", []));
+  const [projects, setProjects] = useState<Project[]>(INITIAL_PROJECTS);
   const [profilePic, setProfilePic]   = useState<string | null>("Image.jpg");
   const [cvUrl, setCvUrl]             = useState<string | null>("CHRISTABEL ASANTE APPIAH_DATA SCIENTIST.pdf");
   const [cvName, setCvName]           = useState<string>("CHRISTABEL ASANTE APPIAH_DATA SCIENTIST.pdf");
