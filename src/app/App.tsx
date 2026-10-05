@@ -523,7 +523,7 @@ const INITIAL_PROJECTS: Project[] = [
    title: "Sales Dashboard Report",
    description: "Brief summary of your analytical models, machine learning, or Power BI dashboard.",
    tags: ["SQL","Power BI","DAX"],
-   image: "/sales 2", // Optional thumbnail image in your public folder
+   image: "/sales2.png", // Optional thumbnail image in your public folder
    
  },
 ];
