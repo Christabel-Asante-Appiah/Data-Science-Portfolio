@@ -519,7 +519,7 @@ function SoftBlob() {
 // ─── App ──────────────────────────────────────────────────────────────────────
 
 export default function App() {
- const [projects, setProjects]       = useState<Project[]>(INITIAL_PROJECTS);
+ const [projects, setProjects]       = useState<Project[]>(() => loadFromStorage("ca_projects",[]));
   const [profilePic, setProfilePic]   = useState<string | null>("Image.jpg");
   const [cvUrl, setCvUrl]             = useState<string | null>("CHRISTABEL ASANTE APPIAH_DATA SCIENTIST.pdf");
   const [cvName, setCvName]           = useState<string>("CHRISTABEL ASANTE APPIAH_DATA SCIENTIST.pdf");
