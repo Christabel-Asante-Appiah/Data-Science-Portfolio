@@ -517,16 +517,7 @@ function SoftBlob() {
 }
 
 // ─── App ──────────────────────────────────────────────────────────────────────
-// const INITIAL_PROJECTS: Project[] = [
-// {
-//   id: "1",
-  // title: "Sales Dashboard Report",
- //  description: "Brief summary of your analytical models, machine learning, or Power BI dashboard.",
- //  tags: ["SQL","Power BI","DAX"],
-  // image: "/sales2.png", 
-   
-// },
-//];
+
 export default function App() {
  const [projects, setProjects]       = useState<Project[]>(INITIAL_PROJECTS);
   const [profilePic, setProfilePic]   = useState<string | null>("Image.jpg");
